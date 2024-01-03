@@ -2,6 +2,8 @@ import useTextExtractor from "@/hooks/api/getExtractedText";
 
 import PdfExtactedTextContainer from "./PdfExtactedTextContainer";
 import PdfExtractorInput from "./PdfExtractorInput";
+import Button from "../Button";
+import ButtonText from "../buttonText";
 
 const PdfExtractor = () => {
   const {
@@ -26,17 +28,13 @@ const PdfExtractor = () => {
           file={file as File}
         />
         <div>
-          <button
-            onClick={handleExtractText}
-            className="bg-red-400 p-2 rounded-sm hover:opacity-70 max-w-40"
+          <Button
+            onClickButton={handleExtractText}
+            textButton="Extract Text"
             disabled={isLoading}
-          >
-            Extract Text
-          </button>
+          />
           {generatedText && (
-            <button type="button" onClick={clearText} className="ml-4">
-              clearText
-            </button>
+            <ButtonText onClickButton={clearText} textButton="clearText" />
           )}
         </div>
         {error && <div className="text-red-700">{error}</div>}

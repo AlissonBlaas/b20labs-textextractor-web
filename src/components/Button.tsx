@@ -1,18 +1,30 @@
+import cn from 'classnames'
 import React from 'react';
-
 interface IButton extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     onClickButton: () => void
-    textButton: string
+    text: string
+    buttonClassName?: string
+    variable?: 'text' | 'button'
 }
 
-const Button = ({ onClickButton, textButton, ...props }: IButton) => {
+const Button = ({
+    onClickButton,
+    text,
+    buttonClassName,
+    variable,
+    ...props
+}: IButton) => {
     return (
         <button
             onClick={onClickButton}
-            className="bg-red-400 p-2 rounded-sm hover:opacity-70 max-w-40"
+            className={cn({
+                buttonClassName,
+                "": variable === 'text',
+                "bg-red-400 p-2 rounded-sm hover:opacity-70 max-w-40": variable === 'button'
+            })}
             {...props}
         >
-            {textButton}
+            {text}
         </button>
     );
 }

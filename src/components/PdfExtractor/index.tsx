@@ -3,7 +3,6 @@ import useTextExtractor from "@/hooks/api/getExtractedText";
 import PdfExtactedTextContainer from "./PdfExtactedTextContainer";
 import PdfExtractorInput from "./PdfExtractorInput";
 import Button from "../Button";
-import ButtonText from "../buttonText";
 
 const PdfExtractor = () => {
   const {
@@ -30,11 +29,12 @@ const PdfExtractor = () => {
         <div>
           <Button
             onClickButton={handleExtractText}
-            textButton="Extract Text"
+            text="Extract Text"
+            variable="button"
             disabled={isLoading}
           />
           {generatedText && (
-            <ButtonText onClickButton={clearText} textButton="clearText" />
+            <Button variable="text" onClickButton={clearText} text="clearText" />
           )}
         </div>
         {error && <div className="text-red-700">{error}</div>}

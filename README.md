@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## BOTH PROJECTS, FRONTEND AND BACKEND ARE UPLODED AT VERCEL
+WEB DEMO: https://b2labs-textextractor-web.vercel.app/
+
+
+![image](https://github.com/AlissonBlaas/b2labs-textextractor-api/assets/32876996/3ccf8c6c-ae21-41d0-a15b-ce5769d30639)
+

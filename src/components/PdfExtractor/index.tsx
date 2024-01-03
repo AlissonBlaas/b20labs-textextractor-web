@@ -29,6 +29,7 @@ const PdfExtractor = () => {
           <button
             onClick={handleExtractText}
             className="bg-red-400 p-2 rounded-sm hover:opacity-70 max-w-40"
+            disabled={isLoading}
           >
             Extract Text
           </button>

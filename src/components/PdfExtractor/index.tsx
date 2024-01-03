@@ -34,7 +34,7 @@ const PdfExtractor = () => {
             disabled={isLoading}
           />
           {generatedText && (
-            <Button variable="text" onClickButton={clearText} text="clearText" />
+            <Button variable="text" onClickButton={clearText} text="clearText" buttonClassName="ml-4" />
           )}
         </div>
         {error && <div className="text-red-700">{error}</div>}

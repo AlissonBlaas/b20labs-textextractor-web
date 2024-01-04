@@ -1,7 +1,5 @@
 # B20LABS CODE CHALLENGE API
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 WEB DEMO: https://b2labs-textextractor-web.vercel.app/
 
 THIS PROJECT IS RESPONSIVE

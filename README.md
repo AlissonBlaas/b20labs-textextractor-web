@@ -44,7 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ![image](https://github.com/AlissonBlaas/b2labs-textextractor-web/assets/32876996/d3fe46cd-af49-45f3-b01e-aa8aac1a884d)
 
-[BACKEND](https://github.com/AlissonBlaas/b2labs-textextractor-api) ARE UPLODED AT RENDER
+[BACKEND](https://github.com/AlissonBlaas/b2labs-textextractor-api) ARE DEPLOYED AT RENDER
 
 WEB DEMO: https://b2labs-textextractor-web.vercel.app/
 

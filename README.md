@@ -1,4 +1,4 @@
-# B20LABS CODE CHALLENGE API
+# B20LABS CODE CHALLENGE FRONTEND
 
 WEB DEMO: https://b2labs-textextractor-web.vercel.app/
 

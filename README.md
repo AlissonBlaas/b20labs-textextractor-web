@@ -7,9 +7,10 @@ WEB DEMO: https://b2labs-textextractor-web.vercel.app/
 THIS PROJECT IS RESPONSIVE
 
 ## STACK USED:
-tailwind
-nextjs
-hooks
+- tailwind
+- nextjs
+- hooks
+- axios
 
 ## Getting Started
 
